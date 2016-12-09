@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<center><h2>TGIW</h2></center>
+		
+		<h2>Please Enter your Travel Details</h2>
+		<form method="POST" enctype="multipart/form-data" action="/getTravelDetails">
+			<!-- <div class="form-group">
+				<label for="trvlName">Traveller Name:</label> <input type="text"
+					class="form-control" name = "trvlname" id="trvlname" placeholder="Traveller Name">
+			</div> -->
+			<div class="form-group">
+				<label for="fromPlace">From Place:</label> <input type="text"
+					class="form-control" name = "fromPlace" id="fromplace" placeholder="From Place">
+			</div>
+			
+			<div class="form-group">
+				<label for="toPlace">To Place :</label> <input type="text"
+					class="form-control" name = "toPlace" id="toplace" placeholder="To Place">
+			</div>
+			
+			<div class="form-group">
+				<label for="fromDate">From Date:</label> <input type="date"
+					class="form-control" name = "fromDate" id="fromdate" placeholder="From Date">
+			</div>
+			
+			<div class="form-group">
+				<label for="toDate">To Date:</label> <input type="date"
+					class="form-control" name = "toDate" id="todate" placeholder="To Date">
+			</div>
+			
+			<button type="submit" class="btn btn-default">Go</button>
+		</form>
+		
+	</div>
+	<!-- <script type="text/javascript">
+	
+	$.post("/getPlanAndGuides", 
+			{
+			fplace: $("#fromplace"),
+			tplace: $("#toplace"),
+			tplace: $("#fromdate"),
+			tplace: $("#todate"),
+	
+			
+			
+			},
+			function(result){
+        $("span").html(result);
+    }); 
+	</script> -->
+
+</body>
+</html>
