@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript"
+	src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js
+	"></script>
+</head>
+<body>
+
+	<div class="container">
+		<center>
+			<h2>TGIW Planner/Guide registration</h2>
+		</center>
+
+		<h2>Please Enter your Details</h2>
+		<form method="POST" enctype="multipart/form-data"
+			action="/saveGPDetails">
+			<div class="form-group">
+				<label for="gpname">Name :</label> <input type="text"
+					class="form-control" name="gpname" id="gpName" placeholder="Name">
+			</div>
+
+			<div class="form-group">
+				<label for="Place">Place/Location :</label> <input type="text"
+					class="form-control" name="Place" id="place" placeholder="Place">
+			</div>
+
+			<div class="form-group">
+				<label for="type">You are :</label> 
+				<select class="form-control" name="type" id="Type">
+					<option value="G">Planner</option>
+					<option value="P">Guide</option>
+				</select>
+			</div>
+			<button type="submit" class="btn btn-default">Register</button>
+		</form>
+
+	</div>
+
+</body>
+</html>

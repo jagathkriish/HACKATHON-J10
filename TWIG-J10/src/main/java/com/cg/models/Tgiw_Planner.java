@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Tgiw_Master {
+public class Tgiw_Planner {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -17,14 +17,7 @@ public class Tgiw_Master {
 	private String location;
 	private String rating;
 	
-	public Tgiw_Master(long id, String name, String category, String location, String rating) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.category = category;
-		this.location = location;
-		this.rating = rating;
-	}
+	
 	public long getId() {
 		return id;
 	}

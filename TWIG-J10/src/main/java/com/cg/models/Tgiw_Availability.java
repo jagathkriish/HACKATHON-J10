@@ -46,15 +46,6 @@ public class Tgiw_Availability {
 	public void setgList(String gList) {
 		this.gList = gList;
 	}
-	
-	public Tgiw_Availability(long id, Date avlDate, String pList, String gList) {
-		super();
-		this.id = id;
-		this.avlDate = avlDate;
-		this.pList = pList;
-		this.gList = gList;
-	}
-	
-	
+
 	
 }

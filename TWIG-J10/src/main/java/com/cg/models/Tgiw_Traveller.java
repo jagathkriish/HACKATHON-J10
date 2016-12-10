@@ -30,17 +30,17 @@ public class Tgiw_Traveller {
 	private Date Trvl_Return;
 	
 	
-	public Tgiw_Traveller(long id, String name, String adress, String tour_from, String tour_to, Date trvl_Start,
+	/*public Tgiw_Traveller(long id, String name, String adress, String tour_from, String tour_to, Date trvl_Start,
 			Date trvl_Return) {
 		super();
 		this.id = id;
 		this.name = name;
-		Adress = adress;
+		this.Adress = adress;
 		this.tour_from = tour_from;
 		this.tour_to = tour_to;
-		Trvl_Start = trvl_Start;
-		Trvl_Return = trvl_Return;
-	}
+		this.Trvl_Start = trvl_Start;
+		this.Trvl_Return = trvl_Return;
+	}*/
 
 	public long getId() {
 		return id;
